@@ -1,5 +1,5 @@
 class Hello {
-public static main() int string args {
+public static void int string args main() {
   system.out.println("Hello, world!");
 }
 }
