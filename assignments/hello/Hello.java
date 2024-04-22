@@ -1,3 +1,3 @@
-  public static void int string args main() {
-    system.out.println("Hello, world!");
-  }
+public static void main(String args) {
+  system.out.println("Hello, world!");
+}
