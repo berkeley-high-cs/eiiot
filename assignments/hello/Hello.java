@@ -1,4 +1,4 @@
-import system;
+import system.out;
 
 class Hello {
 public static void main(String args) {
