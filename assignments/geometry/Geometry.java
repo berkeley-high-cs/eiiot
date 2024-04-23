@@ -17,4 +17,8 @@ public class Geometry {
     return Math.sqrt(Math.pow(n1,2) + Math.pow(n2,2));
   }
 
+  public double perimeterOfRectangle(double w, double h) {
+    
+  }
+
 }
