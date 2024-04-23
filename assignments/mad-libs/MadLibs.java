@@ -24,8 +24,8 @@ public class MadLibs {
     return "Hello " + name + ", you're looking " + adjective + " today.";
   }
 
-  public String sentenceTwo(String verb, String name, String name) {
-    return "Have you considered going and " + verb + " near " + name + " " + name + "?";
+  public String sentenceTwo(String verb, String name1, String name1) {
+    return "Have you considered going and " + verb + " near " + name1 + " " + name2 + "?";
   }
 
   // TODO: write more sentence methods.
