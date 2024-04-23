@@ -8,6 +8,8 @@ public class MadLibs {
 
   private String[] adjectives = { "radiant", "glowing", "glum", "bespeckled" };
 
+  private String[] verb = {"run", "sit", "cry", "win"};
+
   // This method chooses a random element from the array passed as its argument.
   // For instance given the definition of names above, chooseFrom(names) will
   // return one of "Wilma", "Betty", "Fred", or "Barney" each time it is called.
@@ -22,6 +24,10 @@ public class MadLibs {
     return "Hello " + name + ", you're looking " + adjective + " today.";
   }
 
+  public String sentenceTwo(String verb, String name, String name) {
+    return "Have you considered going and " + verb + " near " + name + " " + name + "?"
+  }
+
   // TODO: write more sentence methods.
 
   // This method is the entry point for generating a full MadLib. It should call
@@ -32,7 +38,7 @@ public class MadLibs {
   public String generate() {
     // TODO: add calls to more sentence methods that you write and concatenate
     // them to the result
-    return sentenceOne(chooseFrom(names), chooseFrom(adjectives));
+    return sentenceOne(chooseFrom(names), chooseFrom(adjectives)) + " " + sentenceTwo(chooseFrom(verbs), chooseFrom(names), chooseFrom(names));
   }
 
   // You don't need to touch this method. It just calls your generate method and
