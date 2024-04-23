@@ -24,4 +24,8 @@ public class Geometry {
   public double areaOfSquare(double s) {
     return Math.pow(s,2);
   }
+
+  public double areaOfRectangle(double w, double h) {
+    return w * h;
+  }
 }
