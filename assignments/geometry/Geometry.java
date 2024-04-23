@@ -18,7 +18,6 @@ public class Geometry {
   }
 
   public double perimeterOfRectangle(double w, double h) {
-    
+    return 2*w + 2* h;
   }
-
 }
