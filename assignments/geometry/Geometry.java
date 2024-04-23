@@ -80,6 +80,6 @@ public class Geometry {
   }
 
   public double volumeOfCone(double b, double h) {
-    return (1/3) * b * h;
+    return b * (h/3);
   }
 }
