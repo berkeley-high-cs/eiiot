@@ -28,4 +28,8 @@ public class Geometry {
   public double areaOfRectangle(double w, double h) {
     return w * h;
   }
+
+  public double areaOfTriangle(double b, double h) {
+    return 0.5 * b * h;
+  }
 }
