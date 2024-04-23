@@ -10,7 +10,7 @@ public class Geometry {
   }
 
   public double midpoint(double n1, double n2) {
-    return n1 + n2 / 2;
+    return (n1 + n2) / 2;
   }
   // Add more methods here ...
 }
