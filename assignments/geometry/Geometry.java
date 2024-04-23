@@ -34,6 +34,6 @@ public class Geometry {
   }
 
   public double areaOfTrapezoid(double b1, double b2, double h) {
-    return (b1 + b2) * h;
+    return (b1 + b2) * 0.5 * h;
   }
 }
