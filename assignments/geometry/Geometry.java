@@ -54,6 +54,6 @@ public class Geometry {
   }
 
   public double curvedSurfaceAreaOfCylinder(double r, double h) {
-    return h * areaOfCircle(r);
+    return h * circumferenceOfCircle(r);
   }
 }
