@@ -13,4 +13,8 @@ public class Geometry {
     return (n1 + n2) / 2;
   }
 
+  public double hypotenuse(double n1, double n2) {
+    return Math.sqrt(n1**2 + n2**2)
+  }
+
 }
