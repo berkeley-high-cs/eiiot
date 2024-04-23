@@ -64,4 +64,8 @@ public class Geometry {
   public double volumeOfCylinder(double r, double h) {
     return h * areaOfCircle(r);
   }
+
+  public double curvedSurfaceAreaOfConeFromSlantHeight(double r, double sh) {
+    return Math.PI * r * sh;
+  }
 }
