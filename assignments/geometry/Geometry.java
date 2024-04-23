@@ -16,5 +16,4 @@ public class Geometry {
   public double hypotenuse(double n1, double n2) {
     return Math.sqrt(Math.pow(n1,2) + Math.pow(n2,2));
   }
-
 }
