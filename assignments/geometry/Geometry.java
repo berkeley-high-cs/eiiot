@@ -44,4 +44,8 @@ public class Geometry {
   public double surfaceAreaOfSphere(double r) {
     return 4 * areaOfCircle(r);
   }
+
+  public double volumeOfSphere(double r) {
+    return 4/3 * Math.PI * Math.pow(r,3);
+  }
 }
