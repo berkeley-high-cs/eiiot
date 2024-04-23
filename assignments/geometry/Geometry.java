@@ -9,7 +9,7 @@ public class Geometry {
     return side * 4;
   }
 
-  public hypotenuse(double n1, double n2) {
+  public double hypotenuse(double n1, double n2) {
     return n1 + n2 / 2;
   }
 
