@@ -32,4 +32,8 @@ public class Geometry {
   public double areaOfTriangle(double b, double h) {
     return 0.5 * b * h;
   }
+
+  public double areaOfTrapezoid(double b1, double b2, double h) {
+    return (b1 + b2) * h;
+  }
 }
