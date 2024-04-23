@@ -36,4 +36,8 @@ public class Geometry {
   public double areaOfTrapezoid(double b1, double b2, double h) {
     return (b1 + b2) * 0.5 * h;
   }
+
+  public double areaOfCircle(double r) {
+    return Math.PI * Math.pow(r, 2);
+  }
 }
