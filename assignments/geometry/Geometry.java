@@ -9,5 +9,4 @@ public class Geometry {
     return side * 4;
   }
 
-
 }
