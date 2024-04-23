@@ -52,4 +52,8 @@ public class Geometry {
   public double circumferenceOfCircle(double r) {
     return Math.PI * 2 * r;
   }
+
+  public double curvedSurfaceAreaOfCylinder(double r, double h) {
+    return h * areaOfCircle(r);
+  }
 }
