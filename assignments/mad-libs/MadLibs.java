@@ -8,7 +8,7 @@ public class MadLibs {
 
   private String[] adjectives = { "radiant", "glowing", "glum", "bespeckled" };
 
-  private String[] verb = {"run", "sit", "cry", "win"};
+  private String[] verbs = {"run", "sit", "cry", "win"};
 
   // This method chooses a random element from the array passed as its argument.
   // For instance given the definition of names above, chooseFrom(names) will
