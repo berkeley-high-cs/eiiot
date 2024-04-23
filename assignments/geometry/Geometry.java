@@ -46,7 +46,7 @@ public class Geometry {
   }
 
   public double volumeOfSphere(double r) {
-    return (4/3) * Math.PI;
+    return Math.PI * Math.pow(r,3) * (4/3);
   }
 
   public double circumferenceOfCircle(double r) {
