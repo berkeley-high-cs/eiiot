@@ -79,7 +79,7 @@ public class Geometry {
     );
   }
 
-  public double volumeOfCone(double b, double h) {
-    return b * (h/3);
+  public double volumeOfCone(double r, double h) {
+    return areaOfCircle(r) * (h/3);
   }
 }
