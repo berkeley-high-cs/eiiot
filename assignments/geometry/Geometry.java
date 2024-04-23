@@ -21,4 +21,7 @@ public class Geometry {
     return 2 * w + 2 * h;
   }
   
+  public double areaOfSquare(double s) {
+    return Math.pow(s,2);
+  }
 }
