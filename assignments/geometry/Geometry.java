@@ -78,4 +78,8 @@ public class Geometry {
     hypotenuse(r, h)
     );
   }
+
+  public double volumeOfCone(double b, h) {
+    return b * h * 1/3;
+  }
 }
