@@ -40,4 +40,8 @@ public class Geometry {
   public double areaOfCircle(double r) {
     return Math.PI * Math.pow(r, 2);
   }
+
+  public double surfaceAreaOfSphere(double r) {
+    return 4 * areaOfCircle(r);
+  }
 }
